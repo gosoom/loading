@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>loading......</title>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/loading.min.js"></script>
+<div class="dimg"><img src="./img/dog.jpg"></div>
+<script type="text/javascript">
+  // Only need to pass in width and pixel units when you want to use
+  loading(80,"px");
+  setTimeout(function(){
+  // When you want to turn off the loading animation, just use the following function.
+  closeloading();
+  alert('loading end');
+  },5000)
+
+</script>
+</body>
+</html>
