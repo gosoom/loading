@@ -12,3 +12,7 @@ there has two param :width and type ,just mean display width and pixel type of a
 3、End animation
 
 just use method closeloading() .
+
+4、example
+
+https://example.gosoom.com/loading/
